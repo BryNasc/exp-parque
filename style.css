@@ -41,12 +41,16 @@ body {
 }
 p {
     margin-top: 0;
+    font-family: sans-serif;
 }
 
 h1 {
     margin-bottom: 8px;
     font-size: clamp(2.5rem, 7vw, 4.5rem);
     line-height: 1.05;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
 }
 
 .topo p:last-child {
@@ -136,7 +140,7 @@ figure img {
 figcaption {
     padding-top: 8px;
     color: #58675e;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 0.9rem;
 }
 
@@ -218,7 +222,4 @@ th {
     td {
         padding: 10px;
     }
-}
-.fontes-topic{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
