@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parque Barigui</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p1>Olá mundo!</p1>
+    <header class="site-header">
+        <div class="header-content">
+            <p class="eyebrow">Curitiba · Paraná</p>
+            <h1>Parque Barigui</h1>
+            <p>Um espaço para conhecer, caminhar e aproveitar a natureza.</p>
+        </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#textos">Sobre</a>
+        <a href="#galeria">Imagens</a>
+        <a href="#links">Links</a>
+        <a href="#informacoes">Informações</a>
+    </nav>
+
+    <main class="page-content">
+        <section class="content-section" id="textos">
+            <p class="eyebrow">Conheça o parque</p>
+            <h2>Um lugar para respirar</h2>
+            <p class="lead">Bo</p>
+            <p>O Parque Barigui é um dos espaços verdes mais conhecidos de Curitiba. Aqui você pode escrever um parágrafo com informações, curiosidades ou a história do lugar.</p>
+            <p>.</p>
+        </section>
+
+        <section class="content-section" id="galeria">
+            <p class="eyebrow">Galeria</p>
+            <h2>Imagens</h2>
+            <div class="image-grid">
+                <figure>
+                    <img src="imagens/imagem-exemplo-1.jpg" alt="primeira imagem do parque">
+                    <figcaption>Legenda da primeira imagem.</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/imagem-exemplo-2.jpg" alt="segunda imagem do parque">
+                    <figcaption>Legenda da segunda imagem.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="content-section" id="links">
+            <p class="eyebrow">Para explorar</p>
+            <h2>Links úteis</h2>
+            <p>Use estes exemplos para apontar para outras páginas ou sites relacionados ao projeto.</p>
+            <ul class="link-list">
+                <li><a href="#">link ou recurso</a></li>
+                <li><a href="#">Outro link relacionado</a></li>
+                <li><a href="#">Mais informações</a></li>
+            </ul>
+        </section>
+
+        <section class="content-section" id="informacoes">
+            <p class="eyebrow">Dados do parque</p>
+            <h2>Informações</h2>
+            <div class="table-wrapper">
+                <table>
+                    <caption>Exemplo de informações para preencher</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Local</th>
+                            <th scope="col">Descrição</th>
+                            <th scope="col">Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exemplo 1</td>
+                            <td> descrição</td>
+                            <td>Informação</td>
+                        </tr>
+                        <tr>
+                            <td>Exemplo 2</td>
+                            <td>descrição</td>
+                            <td>Informação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Projeto sobre o Parque Barigui · Curitiba, PR</p>
+    </footer>
 </body>
 </html>
