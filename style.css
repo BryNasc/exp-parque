@@ -14,19 +14,19 @@ body {
     line-height: 1.65;
 }
 
-.site-header {
+.topo {
     padding: 64px 24px 56px;
     background: #244b3b;
     color: #fffdf5;
 }
 
-.header-content,
-.page-content {
+.titulo-pagina,
+.conteudo {
     width: min(100% - 40px, 920px);
     margin: 0 auto;
 }
 
-.eyebrow {
+.texto-pequeno {
     margin: 0 0 8px;
     color: #a3472f;
     font-family: Arial, sans-serif;
@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
 }
 
-.site-header .eyebrow {
+.topo .texto-pequeno {
     color: #f4b849;
 }
 p {
@@ -49,14 +49,14 @@ h1 {
     line-height: 1.05;
 }
 
-.site-header p:last-child {
+.topo p:last-child {
     max-width: 540px;
     margin-bottom: 0;
     color: #e5eee7;
     font-size: 1.1rem;
 }
 
-.site-nav {
+.menu {
     display: flex;
     flex-wrap: wrap;
     gap: 8px 28px;
@@ -66,24 +66,24 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
-.site-nav a,
-.link-list a {
+.menu a,
+.lista-links a {
     color: #245b45;
     font-weight: 700;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
 
-.site-nav a {
+.menu a {
     text-decoration: none;
 }
 
-.site-nav a:hover,
-.link-list a:hover {
+.menu a:hover,
+.lista-links a:hover {
     color: #a3472f;
 }
 
-.page-content {
+.conteudo {
     margin-top: 32px;
     margin-bottom: 32px;
     padding: 0 36px;
@@ -91,12 +91,12 @@ h1 {
     border: 1px solid #e7dcc3;
 }
 
-.content-section {
+.secao {
     padding: 38px 0;
     border-bottom: 1px solid #e7dcc3;
 }
 
-.content-section:last-child {
+.secao:last-child {
     border-bottom: 0;
 }
 
@@ -107,13 +107,13 @@ h2 {
     line-height: 1.2;
 }
 
-.lead {
+.texto-destaque {
     max-width: 680px;
     color: #4d6257;
     font-size: 1.2rem;
 }
 
-.image-grid {
+.galeria {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
@@ -140,13 +140,13 @@ figcaption {
     font-size: 0.9rem;
 }
 
-.link-list {
+.lista-links {
     display: grid;
     gap: 10px;
     padding-left: 20px;
 }
 
-.table-wrapper {
+.tabela-container {
     overflow-x: auto;
 }
 
@@ -174,7 +174,7 @@ th {
     color: #244b3b;
 }
 
-.site-footer {
+.rodape {
     padding: 20px;
     color: #fffdf5;
     background: #244b3b;
@@ -183,34 +183,34 @@ th {
     text-align: center;
 }
 
-.site-footer p {
+.rodape p {
     margin: 0;
 }
 
 @media (max-width: 600px) {
-    .site-header {
+    .topo {
         padding: 48px 0 40px;
     }
 
-    .header-content,
-    .page-content {
+    .titulo-pagina,
+    .conteudo {
         width: min(100% - 28px, 920px);
     }
 
-    .site-nav {
+    .menu {
         gap: 8px 18px;
         padding: 14px;
     }
 
-    .page-content {
+    .conteudo {
         padding: 0 20px;
     }
 
-    .content-section {
+    .secao {
         padding: 30px 0;
     }
 
-    .image-grid {
+    .galeria {
         grid-template-columns: 1fr;
     }
 
